@@ -22,7 +22,11 @@ img{
     margin: 0 auto;
 }
 
+
+
+
 nav .container{
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,6 +35,9 @@ nav .container{
 .nav-title{
     display: flex;
     align-items: center;
+}
+.nav-list{
+    display: flex;
 }
 
 
