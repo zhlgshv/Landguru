@@ -73,6 +73,15 @@ nav .container{
     line-height: 24px;
     letter-spacing: -0.16px;
 }
+.watsh-video{
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
 
 
 
