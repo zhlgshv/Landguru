@@ -22,7 +22,9 @@ img{
     margin: 0 auto;
 }
 
-
+header{
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+}
 
 
 nav .container{
@@ -33,11 +35,23 @@ nav .container{
 }
 
 .nav-title{
+    color: #fff;
     display: flex;
     align-items: center;
 }
+.nav-title-logo{
+    font-size: 24px;
+}
+.nav-title-text{
+    
+    margin: 0 15px;
+}
 .nav-list{
     display: flex;
+}
+.nav-link{
+    margin: 0 20px;
+    color: #fff;
 }
 
 
