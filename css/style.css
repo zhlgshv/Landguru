@@ -92,7 +92,19 @@ main .container{
 .main-text{
     width: 45%;
 }
-
+.main-text-title{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+.main-subtext{
+    margin: 20px 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+}
 
 
 
