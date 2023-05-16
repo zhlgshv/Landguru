@@ -22,7 +22,16 @@ img{
     margin: 0 auto;
 }
 
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.nav-title{
+    display: flex;
+    align-items: center;
+}
 
 
 @media (max-width:1160px){
