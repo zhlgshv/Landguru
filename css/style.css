@@ -40,7 +40,7 @@ nav .container{
     align-items: center;
 }
 .nav-title-logo{
-    font-size: 24px;
+    font-size: 24px;  
 }
 .nav-title-text{
     font-family: 'Poppins', sans-serif;
@@ -54,10 +54,16 @@ nav .container{
 .nav-list{
     display: flex;
 }
+.fa-chevron-down{
+    font-size: 10px;
+}
 .nav-link{
+    font-family: system-ui,sans-serif;
     margin: 0 20px;
     color: #fff;
 }
+
+
 
 
 @media (max-width:1160px){
