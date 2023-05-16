@@ -84,6 +84,24 @@ nav .container{
 }
 
 
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-text{
+    width: 45%;
+}
+
+
+
+
+
+
+
+.main-photo{
+    width: 45%;
+}
 
 @media (max-width:1160px){
     .container{
@@ -106,6 +124,15 @@ nav .container{
     }
     .nav-list{
         display: none;
+    }
+    main .container{
+        flex-direction: column;
+    }
+    .main-text{
+        width: 100%;
+    }
+    .main-photo{
+        width: 100%;
     }
 }
 @media (max-width:760px){
