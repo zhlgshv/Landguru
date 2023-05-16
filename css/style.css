@@ -85,6 +85,7 @@ nav .container{
 
 
 main .container{
+    padding: 100px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,9 +106,21 @@ main .container{
     line-height: 42px;
     color: #fff;
 }
+.wtsh .nav-wrapper{
+    color: black;
+    background-color: #fff;
+}
 
-
-
+.sponsor{
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.sponsor-logos{
+    margin: 0 10px;
+    display: flex;
+}
 
 
 
@@ -119,10 +132,19 @@ main .container{
     .container{
         width: 1040px;
     }
+    .main-subtext{
+        font-size: 17px;
+    }
 }
 @media (max-width:1060px){
     .container{
         width: 940px;
+    }
+    .main-text-title{
+        font-size: 50px;
+    }
+    .main-subtext{
+        font-size: 15px;
     }
 }
 @media (max-width:960px){
@@ -142,9 +164,15 @@ main .container{
     }
     .main-text{
         width: 100%;
+        text-align: center;
     }
     .main-photo{
+        margin-top: 50px;
         width: 100%;
+    }
+    .sponsor{
+        margin-top: 20px;
+        justify-content: center;
     }
 }
 @media (max-width:760px){
