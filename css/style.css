@@ -151,10 +151,11 @@ main .container{
 
 .quality-plans{
     display: flex;
+    gap: 50px;
     justify-content: center;
 }
 .quality-forms{
-    margin: 0 20px;
+    /* margin: 30px; */
     width: 20%;
     text-align: center;
 }
@@ -190,6 +191,9 @@ main .container{
     .main-subtext{
         font-size: 17px;
     }
+    .quality-forms{
+        width: 22%;
+    }
 }
 @media (max-width:1060px){
     .container{
@@ -204,6 +208,9 @@ main .container{
     .main-subtext{
         font-size: 15px;
     }
+    .quality-forms{
+        width: 23%;
+    }
 }
 @media (max-width:960px){
     .container{
@@ -211,6 +218,9 @@ main .container{
     }
     header{
         border-radius: 0 0 150px 0;
+    }
+    .quality-forms{
+        width: 25%;
     }
 }
 @media (max-width:860px){
@@ -247,15 +257,30 @@ main .container{
     .watsh-video{
         margin: 0 15px;
     }
+
+
+    .quality-plans{
+        flex-wrap: wrap;
+    }
+    .quality-forms{
+        padding: 0 40px;
+        width: 40%;
+    }
 }
 @media (max-width:760px){
     .container{
         width: 640px;
     }
+    .quality-forms{
+        width: 46%;
+    }
 }
 @media (max-width:660px){
     .container{
         width: 540px;
+    }
+    .quality-forms{
+        width: 100%;
     }
 }
 @media (max-width:560px){
