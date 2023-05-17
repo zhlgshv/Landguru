@@ -106,6 +106,9 @@ main .container{
     line-height: 42px;
     color: #fff;
 }
+.wtsh{
+    display: flex;
+}
 .wtsh .nav-wrapper{
     color: black;
     background-color: #fff;
@@ -174,6 +177,15 @@ main .container{
         margin-top: 20px;
         justify-content: center;
     }
+    .wtsh{
+        justify-content: center;
+    }
+    .wtsh .nav-wrapper{
+        margin: 0 15px;
+    }
+    .watsh-video{
+        margin: 0 15px;
+    }
 }
 @media (max-width:760px){
     .container{
@@ -194,9 +206,32 @@ main .container{
     .container{
         width: 340px;
     }
+    nav .container{
+        justify-content: center;
+    }
+    nav .container .nav-wrapper{
+        display: none;
+    }
+    .wtsh{
+        flex-direction: column;
+    }
+    .wtsh .nav-wrapper{
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    .watsh-video{
+        margin: 10px 0;
+        font-size: 24px;
+    }
 }
 @media (max-width:360px){
     .container{
         width: 240px;
+    }
+    .main-text-title{
+        font-size: 35px;
+    }
+    .sponsor p{
+        display: none;
     }
 }
