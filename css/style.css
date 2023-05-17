@@ -16,7 +16,9 @@ img{
     width: 100%;
 }
 
-
+body{
+    background: #E5E5E5;
+}
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -132,8 +134,25 @@ main .container{
 }
 
 
+.quality-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    color: #244886;
+}
+.quality-subtitle{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
 
 
+.quality-plans{
+    display: flex;
+    justify-content: center;
+}
+.quality-forms{
+    width: 20%;
+}
 
 
 
