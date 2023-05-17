@@ -131,6 +131,13 @@ main .container{
     width: 45%;
 }
 
+
+
+
+
+
+
+
 @media (max-width:1160px){
     .container{
         width: 1040px;
@@ -223,6 +230,9 @@ main .container{
         margin: 10px 0;
         font-size: 24px;
     }
+    .sponsor p{
+        display: none;
+    }
 }
 @media (max-width:360px){
     .container{
@@ -230,8 +240,5 @@ main .container{
     }
     .main-text-title{
         font-size: 35px;
-    }
-    .sponsor p{
-        display: none;
     }
 }
