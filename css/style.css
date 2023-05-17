@@ -25,6 +25,7 @@ body{
 }
 
 header{
+    border-radius: 0 0 300px 0;
     background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
 }
 
@@ -135,12 +136,14 @@ main .container{
 
 
 .quality-title{
+    margin-top: 60px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'DM Sans', sans-serif;
     color: #244886;
 }
 .quality-subtitle{
+    margin: 20px 0;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
 }
@@ -151,7 +154,23 @@ main .container{
     justify-content: center;
 }
 .quality-forms{
+    margin: 0 20px;
     width: 20%;
+    text-align: center;
+}
+.form-logo{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    background-color: #E4FFEE;
+}
+.quality-forms:nth-child(2) .form-logo{
+    background-color: #2563FF;
+    opacity: 0.09;
 }
 
 
@@ -161,6 +180,9 @@ main .container{
     .container{
         width: 1040px;
     }
+    header{
+        border-radius: 0 0 250px 0;
+    }
     .main-subtext{
         font-size: 17px;
     }
@@ -168,6 +190,9 @@ main .container{
 @media (max-width:1060px){
     .container{
         width: 940px;
+    }
+    header{
+        border-radius: 0 0 200px 0;
     }
     .main-text-title{
         font-size: 50px;
@@ -180,10 +205,16 @@ main .container{
     .container{
         width: 840px;
     }
+    header{
+        border-radius: 0 0 150px 0;
+    }
 }
 @media (max-width:860px){
     .container{
         width: 740px;
+    }
+    header{
+        border-radius: 0 0 100px 0;
     }
     .nav-list{
         display: none;
