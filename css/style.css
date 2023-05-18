@@ -180,6 +180,17 @@ main .container{
 }
 
 
+.core-features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.feature-types{
+    display: flex;
+}
+
 
 
 
