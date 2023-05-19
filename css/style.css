@@ -205,6 +205,7 @@ main .container{
 .feature-types:hover{
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    transform: scale(1.02);
 }
 .type-text{
     width: 85%;
@@ -346,6 +347,32 @@ main .container{
         padding: 0 40px;
         width: 40%;
     }
+
+
+    .core-features{
+        flex-direction: column;
+    }
+    .features-photo{
+        width: 80%;
+    }
+    .features-text{
+        width: 100%;
+    }
+    .feature-types{
+        width: 100%;
+    }
+    .type-img{
+        transform: scale(1.5);
+    }
+    .type-text{
+        width: 90%;
+    }
+    .features-text-subtitle{
+        text-align: center;
+    }
+    .features-text-title{
+        text-align: center;
+    }
 }
 @media (max-width:760px){
     .container{
@@ -353,6 +380,9 @@ main .container{
     }
     .quality-forms{
         width: 46%;
+    }
+    .type-text{
+        width: 87%;
     }
 }
 @media (max-width:660px){
@@ -368,6 +398,9 @@ main .container{
         margin: 0 auto;
         width: 50%;
     }
+    .type-text{
+        width: 85%;
+    }
 }
 @media (max-width:560px){
     .container{
@@ -378,7 +411,9 @@ main .container{
         margin: 0 auto;
         width: 88%;
     }
-
+    .type-text{
+        width: 82%;
+    }
 }
 @media (max-width:460px){
     .container{
@@ -416,6 +451,14 @@ main .container{
         margin: 0 auto;
         width: 65%;
     }
+    
+    .type-text{
+        width: 75%;
+    }
+    .features-text-title{
+        padding: 0;
+        font-size: 43px;
+    }
 }
 @media (max-width:360px){
     .container{
@@ -430,5 +473,22 @@ main .container{
     .form-text{
         margin: 0 auto;
         width: 90%;
+    }
+    .feature-types{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .type-img{
+        margin: 0 auto;
+        transform: scale(2);
+    }
+    .type-text{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .features-text-title{
+        padding: 0;
+        font-size: 40px;
     }
 }
