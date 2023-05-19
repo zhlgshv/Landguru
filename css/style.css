@@ -241,6 +241,21 @@ main .container{
     line-height: 55px;
     letter-spacing: -1.5px;
 }
+.meet-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.meet-item{
+    width: 30%;
+    display: flex;
+    background-color: #fff;
+}
+
+
+
+
 
 
 
