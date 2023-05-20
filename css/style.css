@@ -248,12 +248,55 @@ main .container{
     gap: 20px;
 }
 .meet-item{
+    padding: 10px;
     width: 30%;
     display: flex;
-    background-color: #fff;
+    align-items: center;
+    transition: .5s;
+    border-radius: 5px;
 }
-
-
+.meet-item:hover{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    transform: scale(1.02);
+}
+.meet-item-logo{
+    margin: 10px;
+    width: 25%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.meet-item-text{
+    width: 65%;
+}
+.meet-item:nth-child(1) .meet-item-logo{
+    color: #FF4361;
+    background: rgba(255, 67, 98, 0.1);
+}
+.meet-item:nth-child(2) .meet-item-logo{
+    color: #3DABDD;
+    background: #EAF9FF;
+}
+.meet-item:nth-child(3) .meet-item-logo{
+    color: #D6AB00;
+    background-color: #FFF6D3;
+}
+.meet-item:nth-child(4) .meet-item-logo{
+    color: #40975F;
+    background-color: #E4FFEE;
+}
+.meet-item:nth-child(5) .meet-item-logo{
+    color: #5856D6;
+    background-color: #F4F4FF;
+}
+.meet-item:nth-child(6) .meet-item-logo{
+    color: #E97425;
+    background-color: rgba(233, 115, 37, 0.12);
+}
 
 
 
@@ -280,6 +323,12 @@ main .container{
 
     .type-text{
         width: 80%;
+    }
+    .meet-item{
+        width: 45%;
+    }
+    .meet-item-logo{
+        width: 20%;
     }
 }
 @media (max-width:1060px){
@@ -317,6 +366,9 @@ main .container{
     }
     .feature-types{
         width: 93%;
+    }
+    .meet-item{
+        width: 48%;
     }
 }
 @media (max-width:860px){
@@ -388,6 +440,12 @@ main .container{
     .features-text-title{
         text-align: center;
     }
+    .meet-item{
+        width: 100%;
+    }
+    .meet-item-logo{
+        width: 12%;
+    }
 }
 @media (max-width:760px){
     .container{
@@ -398,6 +456,9 @@ main .container{
     }
     .type-text{
         width: 87%;
+    }
+    .meet-item-logo{
+        width: 14%;
     }
 }
 @media (max-width:660px){
@@ -416,6 +477,9 @@ main .container{
     .type-text{
         width: 85%;
     }
+    .meet-item-logo{
+        width: 16%;
+    }
 }
 @media (max-width:560px){
     .container{
@@ -428,6 +492,9 @@ main .container{
     }
     .type-text{
         width: 82%;
+    }
+    .meet-item-logo{
+        width: 20%;
     }
 }
 @media (max-width:460px){
@@ -474,6 +541,9 @@ main .container{
         padding: 0;
         font-size: 43px;
     }
+    .meet-item-logo{
+        width: 25%;
+    }
 }
 @media (max-width:360px){
     .container{
@@ -505,5 +575,15 @@ main .container{
     .features-text-title{
         padding: 0;
         font-size: 40px;
+    }
+    .meet-item{
+        flex-direction: column;
+    }
+    .meet-item-logo{
+        width: 40%;
+    }
+    .meet-item-text{
+        text-align: center;
+        width: 100%;
     }
 }
