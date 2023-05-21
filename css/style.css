@@ -301,9 +301,47 @@ main .container{
 
 
 
+.ff{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ff-text{
+    width: 48%;
+}
+.ff-img{
+    width: 50%;
+}
+.ff-text .nav-wrapper{
+    margin:0 30px;
+    background-color: #1F3E76;
+    border: 1px solid #1F3E76;
+}
+.sample{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+}
 
 
 
+.works{
+    margin-top: 100px;
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+}
+.function{
+    padding: 80px 0;
+}
+.function .quality-title{
+    margin: 0;
+    color: #fff;
+}
+.function .quality-subtitle{
+    color: #fff;
+}
 
 
 
@@ -447,6 +485,23 @@ main .container{
     }
     .meet-item-logo{
         width: 12%;
+    }
+    .ff{
+        flex-direction: column;
+    }
+    .sample{
+        margin: 0 auto;
+    }
+    .ff-text{
+        width: 100%;
+        text-align: center;
+    }
+    .ff-text .nav-wrapper{
+        margin: 20px 0;
+    }
+    .ff-img{
+        margin: 30px 0;
+        width: 100%;
     }
 }
 @media (max-width:760px){
