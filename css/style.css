@@ -364,6 +364,47 @@ main .container{
 
 
 
+
+
+.comments{
+    display: flex;
+    justify-content: space-between;
+}
+.comment{
+    padding: 40px;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.stars{
+    display: flex;
+    gap: 7px;
+    color: #E4E4E4;
+}
+.comment-title{
+    margin: 13px 0;
+}
+.comment-text{
+    margin: 10px 0;
+}
+.profile{
+    margin: 10px 0;
+    display: flex;
+}
+.profile img{
+    width: 15%;
+}
+.person{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
 @media (max-width:1160px){
     .container{
         width: 1040px;
@@ -386,6 +427,9 @@ main .container{
     }
     .meet-item-logo{
         width: 20%;
+    }
+    .function-link{
+        width: 22%;
     }
 }
 @media (max-width:1060px){
@@ -410,6 +454,23 @@ main .container{
     .feature-types{
         width: 90%;
     }
+    .function-list{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .function-item{
+        width: 47%;
+    }
+    .function-link{
+        width: 12%;
+    }
+    .comments{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .comment{
+        width: 48%;
+    }
 }
 @media (max-width:960px){
     .container{
@@ -426,6 +487,9 @@ main .container{
     }
     .meet-item{
         width: 48%;
+    }
+    .function-link{
+        width: 13%;
     }
 }
 @media (max-width:860px){
@@ -520,6 +584,17 @@ main .container{
         margin: 30px 0;
         width: 100%;
     }
+    .function-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .function-link{
+        padding: 30px;
+        font-size: 30px;
+    }
 }
 @media (max-width:760px){
     .container{
@@ -533,6 +608,9 @@ main .container{
     }
     .meet-item-logo{
         width: 14%;
+    }
+    .function-link{
+        width: 15%;
     }
 }
 @media (max-width:660px){
@@ -554,6 +632,12 @@ main .container{
     .meet-item-logo{
         width: 16%;
     }
+    .function-link{
+        width: 18%;
+    }
+    .comment{
+        width: 100%;
+    }
 }
 @media (max-width:560px){
     .container{
@@ -569,6 +653,9 @@ main .container{
     }
     .meet-item-logo{
         width: 20%;
+    }
+    .function-link{
+        width: 22%;
     }
 }
 @media (max-width:460px){
@@ -618,6 +705,9 @@ main .container{
     .meet-item-logo{
         width: 25%;
     }
+    .function-link{
+        width: 28%;
+    }
 }
 @media (max-width:360px){
     .container{
@@ -659,5 +749,8 @@ main .container{
     .meet-item-text{
         text-align: center;
         width: 100%;
+    }
+    .function-link{
+        width: 40%;
     }
 }
