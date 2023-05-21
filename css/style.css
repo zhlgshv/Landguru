@@ -344,6 +344,23 @@ main .container{
 }
 
 
+.function-list{
+    display: flex;
+    justify-content: space-between;
+}
+.function-item{
+    width: 22%;
+}
+.function-link{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 20%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #1F3E76;
+}
+
+
 
 
 
