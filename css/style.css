@@ -242,6 +242,7 @@ main .container{
     letter-spacing: -1.5px;
 }
 .meet-list{
+    margin: 90px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -297,6 +298,7 @@ main .container{
     color: #E97425;
     background-color: rgba(233, 115, 37, 0.12);
 }
+
 
 
 
